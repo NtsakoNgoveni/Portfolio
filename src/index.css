@@ -1,0 +1,189 @@
+/* Navbr.jsx */
+nav{
+    display: flex;
+    justify-content:space-between;
+    color:whitesmoke;
+    margin-bottom: 180px;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightcyan;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.contact_me{
+    display: inline-block;
+    border: 1px solid #1F75FE;
+    border-radius: 5px;
+    background-color: #1F75FE;
+    margin-right: 50px;
+    padding: 2px;
+    
+}
+
+
+/* Home.jsx */
+.home{
+    font-size: 35px;
+    padding-bottom: 150px;
+    margin-left: 50px;
+    font-family: 'Open san', sans-serif;
+
+}
+.Greeting{
+    margin-bottom: 2px;
+    padding-bottom:0;
+    font-weight: lighter;
+}
+.home > h2{
+    padding: 0;
+    margin:0;
+    font-weight: 100;
+    margin-bottom:2px;
+
+}
+.home > .name{
+    font-weight:900;
+}
+.my_title{
+    display: inline-block;
+    font-size: 22px;
+    margin:0;
+    padding:0;
+    margin-left:50px;
+    color:#fd5c63;
+    /**/
+}
+
+
+/* About-me.jsx */
+.aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+}
+.about_me_cont  p{
+    font-size: larger;
+}
+.about_me_cont{
+    background-color: #fd5c63;
+    padding:50px;
+    padding-top:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about_me_cont img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+
+/* Projects.jsx */
+.projects{
+    font-family: 'Open sans', sans-serif;
+}
+.projects_cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.alternate{
+    flex-direction: row-reverse;
+}
+.projects_item{
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color:white;
+    max-width: 40rem;
+    text-align: center;
+}
+.desciption{
+    width: 50%;
+}
+.preview-image > img{
+    width: 40rem;
+    object-fit:cover;
+
+}
+a{
+    margin: 0 1rem 0 0;
+    font-size: 1.2rem;
+    color: white;
+    background-color:#fd5c63;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+/*Body*/
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/*Contact-form*/
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0 4rem 0;
+    width: 100%;
+    background-color: #EE204D; /* Lighter shade of grey */
+}
+
+.contact-form {
+    background-color: #fd5c63; /* White background */
+    padding: 35px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 40rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-textarea {
+    resize: vertical;
+}
+
+.contact-button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reduce_line{
+    margin:0;
+    line-height: 2rem;
+}
